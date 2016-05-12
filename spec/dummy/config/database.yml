@@ -1,0 +1,12 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: null_object_models_dummy_development
+
+test:
+  <<: *default
+  database: null_object_models_dummy_test

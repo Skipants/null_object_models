@@ -1,0 +1,1622 @@
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "John"], ["created_at", "2016-05-11 22:58:19.306899"], ["updated_at", "2016-05-11 22:58:19.306899"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "John"], ["created_at", "2016-05-11 22:58:19.312267"], ["updated_at", "2016-05-11 22:58:19.312267"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "John"], ["created_at", "2016-05-11 22:58:19.314598"], ["updated_at", "2016-05-11 22:58:19.314598"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "John"], ["created_at", "2016-05-11 22:58:19.316356"], ["updated_at", "2016-05-11 22:58:19.316356"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "John"], ["created_at", "2016-05-11 22:58:19.318025"], ["updated_at", "2016-05-11 22:58:19.318025"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "John"], ["created_at", "2016-05-11 22:58:19.319644"], ["updated_at", "2016-05-11 22:58:19.319644"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "John"], ["created_at", "2016-05-11 22:58:19.321337"], ["updated_at", "2016-05-11 22:58:19.321337"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "John"], ["id", 1], ["created_at", "2016-05-11 22:58:19.323654"], ["updated_at", "2016-05-11 22:58:19.323654"]]
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "John"], ["created_at", "2016-05-11 22:59:21.729883"], ["updated_at", "2016-05-11 22:59:21.729883"]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "John"], ["created_at", "2016-05-11 22:59:21.735233"], ["updated_at", "2016-05-11 22:59:21.735233"]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "John"], ["created_at", "2016-05-11 22:59:21.737598"], ["updated_at", "2016-05-11 22:59:21.737598"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "John"], ["created_at", "2016-05-11 22:59:21.739194"], ["updated_at", "2016-05-11 22:59:21.739194"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "John"], ["created_at", "2016-05-11 22:59:21.740806"], ["updated_at", "2016-05-11 22:59:21.740806"]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "John"], ["created_at", "2016-05-11 22:59:21.742443"], ["updated_at", "2016-05-11 22:59:21.742443"]]
+  [1m[35m (0.5ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES (?, ?, ?)  [["name", "John"], ["created_at", "2016-05-11 22:59:21.743929"], ["updated_at", "2016-05-11 22:59:21.743929"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "John"], ["id", 1], ["created_at", "2016-05-11 22:59:21.746313"], ["updated_at", "2016-05-11 22:59:21.746313"]]
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "John"], ["id", 1], ["created_at", "2016-05-11 22:59:34.998057"], ["updated_at", "2016-05-11 22:59:34.998057"]]
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 1], ["created_at", "2016-05-11 23:07:48.381371"], ["updated_at", "2016-05-11 23:07:48.381371"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 2], ["created_at", "2016-05-11 23:07:48.385978"], ["updated_at", "2016-05-11 23:07:48.385978"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 3], ["created_at", "2016-05-11 23:07:48.387534"], ["updated_at", "2016-05-11 23:07:48.387534"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.4ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:16:30.125044"], ["updated_at", "2016-05-11 23:16:30.125044"]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:16:30.130961"], ["updated_at", "2016-05-11 23:16:30.130961"]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:16:30.138553"], ["updated_at", "2016-05-11 23:16:30.138553"]]
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36mTestModel Load (0.3ms)[0m  [1mSELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (17, 33, 68, 100, 171)[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 1], ["created_at", "2016-05-11 23:16:30.142186"], ["updated_at", "2016-05-11 23:16:30.142186"]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:17:22.759252"], ["updated_at", "2016-05-11 23:17:22.759252"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mTestModel Load (0.4ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:17:22.767712"], ["updated_at", "2016-05-11 23:17:22.767712"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mTestModel Load (0.1ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:17:22.770211"], ["updated_at", "2016-05-11 23:17:22.770211"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:17:22.771453"], ["updated_at", "2016-05-11 23:17:22.771453"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:17:22.772766"], ["updated_at", "2016-05-11 23:17:22.772766"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:17:22.774092"], ["updated_at", "2016-05-11 23:17:22.774092"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:17:22.775293"], ["updated_at", "2016-05-11 23:17:22.775293"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mTestModel Load (0.3ms)[0m  [1mSELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (3, 4, 5, 6, 7)[0m
+  [1m[35mTestModel Load (0.3ms)[0m  SELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (17, 33, 68, 100, 171)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 1], ["created_at", "2016-05-11 23:17:22.801129"], ["updated_at", "2016-05-11 23:17:22.801129"]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:22:46.086892"], ["updated_at", "2016-05-11 23:22:46.086892"]]
+  [1m[36m (4.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:22:46.100431"], ["updated_at", "2016-05-11 23:22:46.100431"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mTestModel Load (0.1ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:22:46.102793"], ["updated_at", "2016-05-11 23:22:46.102793"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:22:46.103954"], ["updated_at", "2016-05-11 23:22:46.103954"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:22:46.105150"], ["updated_at", "2016-05-11 23:22:46.105150"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:22:46.106346"], ["updated_at", "2016-05-11 23:22:46.106346"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:22:46.107532"], ["updated_at", "2016-05-11 23:22:46.107532"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36mTestModel Load (0.3ms)[0m  [1mSELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (3, 4, 5, 6, 7)[0m
+  [1m[35mTestModel Load (0.3ms)[0m  SELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (17, 33, 68, 100, 171)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 1], ["created_at", "2016-05-11 23:22:46.120137"], ["updated_at", "2016-05-11 23:22:46.120137"]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:29:33.261418"], ["updated_at", "2016-05-11 23:29:33.261418"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:29:33.278611"], ["updated_at", "2016-05-11 23:29:33.278611"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:29:33.280891"], ["updated_at", "2016-05-11 23:29:33.280891"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:29:33.282084"], ["updated_at", "2016-05-11 23:29:33.282084"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:29:33.283076"], ["updated_at", "2016-05-11 23:29:33.283076"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:29:33.284323"], ["updated_at", "2016-05-11 23:29:33.284323"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:29:33.285417"], ["updated_at", "2016-05-11 23:29:33.285417"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 1], ["created_at", "2016-05-11 23:29:33.287097"], ["updated_at", "2016-05-11 23:29:33.287097"]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:31:27.287560"], ["updated_at", "2016-05-11 23:31:27.287560"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:31:27.316516"], ["updated_at", "2016-05-11 23:31:27.316516"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:31:27.318604"], ["updated_at", "2016-05-11 23:31:27.318604"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:31:27.320044"], ["updated_at", "2016-05-11 23:31:27.320044"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:31:27.321416"], ["updated_at", "2016-05-11 23:31:27.321416"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:31:27.322762"], ["updated_at", "2016-05-11 23:31:27.322762"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:31:27.324142"], ["updated_at", "2016-05-11 23:31:27.324142"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 1], ["created_at", "2016-05-11 23:31:27.326072"], ["updated_at", "2016-05-11 23:31:27.326072"]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:31:47.368332"], ["updated_at", "2016-05-11 23:31:47.368332"]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:31:47.395748"], ["updated_at", "2016-05-11 23:31:47.395748"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:31:47.397716"], ["updated_at", "2016-05-11 23:31:47.397716"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:31:47.398854"], ["updated_at", "2016-05-11 23:31:47.398854"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:31:47.399880"], ["updated_at", "2016-05-11 23:31:47.399880"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:31:47.400930"], ["updated_at", "2016-05-11 23:31:47.400930"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:31:47.402002"], ["updated_at", "2016-05-11 23:31:47.402002"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "test_models"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 1], ["created_at", "2016-05-11 23:31:56.360170"], ["updated_at", "2016-05-11 23:31:56.360170"]]
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:37:32.135940"], ["updated_at", "2016-05-11 23:37:32.135940"]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:37:32.164161"], ["updated_at", "2016-05-11 23:37:32.164161"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:37:32.166005"], ["updated_at", "2016-05-11 23:37:32.166005"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:37:32.167130"], ["updated_at", "2016-05-11 23:37:32.167130"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:37:32.168091"], ["updated_at", "2016-05-11 23:37:32.168091"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:37:32.169130"], ["updated_at", "2016-05-11 23:37:32.169130"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:37:32.170181"], ["updated_at", "2016-05-11 23:37:32.170181"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "test_models"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 1], ["created_at", "2016-05-11 23:37:40.821352"], ["updated_at", "2016-05-11 23:37:40.821352"]]
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:39:39.576048"], ["updated_at", "2016-05-11 23:39:39.576048"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:39:39.595688"], ["updated_at", "2016-05-11 23:39:39.595688"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:39:39.598729"], ["updated_at", "2016-05-11 23:39:39.598729"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:39:39.599874"], ["updated_at", "2016-05-11 23:39:39.599874"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:39:39.600873"], ["updated_at", "2016-05-11 23:39:39.600873"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:39:39.601957"], ["updated_at", "2016-05-11 23:39:39.601957"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:39:39.602904"], ["updated_at", "2016-05-11 23:39:39.602904"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "test_models"
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 1], ["created_at", "2016-05-11 23:39:54.986720"], ["updated_at", "2016-05-11 23:39:54.986720"]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:43:31.996390"], ["updated_at", "2016-05-11 23:43:31.996390"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:43:32.020566"], ["updated_at", "2016-05-11 23:43:32.020566"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:43:32.024179"], ["updated_at", "2016-05-11 23:43:32.024179"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:43:32.025918"], ["updated_at", "2016-05-11 23:43:32.025918"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:43:32.027066"], ["updated_at", "2016-05-11 23:43:32.027066"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:43:32.028133"], ["updated_at", "2016-05-11 23:43:32.028133"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:43:32.029294"], ["updated_at", "2016-05-11 23:43:32.029294"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "test_models"
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:44:53.025835"], ["updated_at", "2016-05-11 23:44:53.025835"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:44:53.029969"], ["updated_at", "2016-05-11 23:44:53.029969"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:44:53.031185"], ["updated_at", "2016-05-11 23:44:53.031185"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:44:53.032267"], ["updated_at", "2016-05-11 23:44:53.032267"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:44:53.033255"], ["updated_at", "2016-05-11 23:44:53.033255"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:45:38.950491"], ["updated_at", "2016-05-11 23:45:38.950491"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:45:38.954688"], ["updated_at", "2016-05-11 23:45:38.954688"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:45:38.956684"], ["updated_at", "2016-05-11 23:45:38.956684"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:45:38.958216"], ["updated_at", "2016-05-11 23:45:38.958216"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:45:38.959626"], ["updated_at", "2016-05-11 23:45:38.959626"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:48:29.909522"], ["updated_at", "2016-05-11 23:48:29.909522"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:48:29.914035"], ["updated_at", "2016-05-11 23:48:29.914035"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:48:29.915341"], ["updated_at", "2016-05-11 23:48:29.915341"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:48:29.916704"], ["updated_at", "2016-05-11 23:48:29.916704"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:48:29.918306"], ["updated_at", "2016-05-11 23:48:29.918306"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.4ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (32, 33, 34, 35, 36) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:48:46.867591"], ["updated_at", "2016-05-11 23:48:46.867591"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 37]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:48:46.878171"], ["updated_at", "2016-05-11 23:48:46.878171"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.1ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 38]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:48:46.882828"], ["updated_at", "2016-05-11 23:48:46.882828"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:48:46.884484"], ["updated_at", "2016-05-11 23:48:46.884484"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:48:46.885641"], ["updated_at", "2016-05-11 23:48:46.885641"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:48:46.886700"], ["updated_at", "2016-05-11 23:48:46.886700"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:48:46.887778"], ["updated_at", "2016-05-11 23:48:46.887778"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.3ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (39, 40, 41, 42, 43) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mTestModel Load (0.3ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (17, 33, 68, 100, 171) LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 1], ["created_at", "2016-05-11 23:48:49.357539"], ["updated_at", "2016-05-11 23:48:49.357539"]]
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:51:37.946260"], ["updated_at", "2016-05-11 23:51:37.946260"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:51:37.970799"], ["updated_at", "2016-05-11 23:51:37.970799"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:51:37.974434"], ["updated_at", "2016-05-11 23:51:37.974434"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:51:37.975745"], ["updated_at", "2016-05-11 23:51:37.975745"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:51:37.976938"], ["updated_at", "2016-05-11 23:51:37.976938"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:51:37.978110"], ["updated_at", "2016-05-11 23:51:37.978110"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:51:37.979303"], ["updated_at", "2016-05-11 23:51:37.979303"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 1], ["created_at", "2016-05-11 23:51:41.010484"], ["updated_at", "2016-05-11 23:51:41.010484"]]
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:52:20.961015"], ["updated_at", "2016-05-11 23:52:20.961015"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:54:04.605453"], ["updated_at", "2016-05-11 23:54:04.605453"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:54:17.268672"], ["updated_at", "2016-05-11 23:54:17.268672"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:54:34.321458"], ["updated_at", "2016-05-11 23:54:34.321458"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:55:06.015473"], ["updated_at", "2016-05-11 23:55:06.015473"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:55:14.285006"], ["updated_at", "2016-05-11 23:55:14.285006"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:55:19.038596"], ["updated_at", "2016-05-11 23:55:19.038596"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:55:19.049709"], ["updated_at", "2016-05-11 23:55:19.049709"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.3ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 8]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:55:19.054752"], ["updated_at", "2016-05-11 23:55:19.054752"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:55:19.056157"], ["updated_at", "2016-05-11 23:55:19.056157"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:55:19.057446"], ["updated_at", "2016-05-11 23:55:19.057446"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:55:19.058754"], ["updated_at", "2016-05-11 23:55:19.058754"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:55:19.059985"], ["updated_at", "2016-05-11 23:55:19.059985"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.3ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (9, 10, 11, 12, 13) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mTestModel Load (0.3ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (17, 33, 68, 100, 171) LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 1], ["created_at", "2016-05-11 23:55:20.383503"], ["updated_at", "2016-05-11 23:55:20.383503"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 2], ["created_at", "2016-05-11 23:55:20.385157"], ["updated_at", "2016-05-11 23:55:20.385157"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 3], ["created_at", "2016-05-11 23:55:20.386289"], ["updated_at", "2016-05-11 23:55:20.386289"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (1, 33, 2, 3, 171) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.3ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:55:47.230152"], ["updated_at", "2016-05-11 23:55:47.230152"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:55:47.241890"], ["updated_at", "2016-05-11 23:55:47.241890"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 15]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mTestModel Load (0.1ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:55:47.246386"], ["updated_at", "2016-05-11 23:55:47.246386"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:55:47.247787"], ["updated_at", "2016-05-11 23:55:47.247787"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:55:47.249056"], ["updated_at", "2016-05-11 23:55:47.249056"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-11 23:55:47.250645"], ["updated_at", "2016-05-11 23:55:47.250645"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-11 23:55:47.252021"], ["updated_at", "2016-05-11 23:55:47.252021"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.3ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (16, 17, 18, 19, 20) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.3ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (17, 33, 68, 100, 171) LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 1], ["created_at", "2016-05-11 23:55:49.885234"], ["updated_at", "2016-05-11 23:55:49.885234"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 2], ["created_at", "2016-05-11 23:55:49.886702"], ["updated_at", "2016-05-11 23:55:49.886702"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 3], ["created_at", "2016-05-11 23:55:49.887826"], ["updated_at", "2016-05-11 23:55:49.887826"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (1, 33, 2, 3, 171) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:02:04.419252"], ["updated_at", "2016-05-12 00:02:04.419252"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:02:04.431320"], ["updated_at", "2016-05-12 00:02:04.431320"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 22]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mTestModel Load (0.1ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:02:04.435166"], ["updated_at", "2016-05-12 00:02:04.435166"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:02:04.436492"], ["updated_at", "2016-05-12 00:02:04.436492"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:02:04.437818"], ["updated_at", "2016-05-12 00:02:04.437818"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:02:04.439311"], ["updated_at", "2016-05-12 00:02:04.439311"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:02:04.440480"], ["updated_at", "2016-05-12 00:02:04.440480"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.3ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (23, 24, 25, 26, 27) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.3ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (17, 33, 68, 100, 171) LIMIT 1
+  [1m[36m (0.7ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 1], ["created_at", "2016-05-12 00:02:05.913037"], ["updated_at", "2016-05-12 00:02:05.913037"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 2], ["created_at", "2016-05-12 00:02:05.914953"], ["updated_at", "2016-05-12 00:02:05.914953"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 3], ["created_at", "2016-05-12 00:02:05.916045"], ["updated_at", "2016-05-12 00:02:05.916045"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (1, 33, 2, 3, 171) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:15:24.309028"], ["updated_at", "2016-05-12 00:15:24.309028"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 28]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:15:24.320511"], ["updated_at", "2016-05-12 00:15:24.320511"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 29]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mTestModel Load (0.1ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:15:24.324926"], ["updated_at", "2016-05-12 00:15:24.324926"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:15:24.326554"], ["updated_at", "2016-05-12 00:15:24.326554"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:15:24.327753"], ["updated_at", "2016-05-12 00:15:24.327753"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:15:24.329191"], ["updated_at", "2016-05-12 00:15:24.329191"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:15:24.330625"], ["updated_at", "2016-05-12 00:15:24.330625"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.3ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (30, 31, 32, 33, 34) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.3ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (17, 33, 68, 100, 171) LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 1], ["created_at", "2016-05-12 00:15:26.043959"], ["updated_at", "2016-05-12 00:15:26.043959"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 2], ["created_at", "2016-05-12 00:15:26.045565"], ["updated_at", "2016-05-12 00:15:26.045565"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 3], ["created_at", "2016-05-12 00:15:26.046657"], ["updated_at", "2016-05-12 00:15:26.046657"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (1, 33, 2, 3, 171) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:17:49.924527"], ["updated_at", "2016-05-12 00:17:49.924527"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 35]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:17:49.937781"], ["updated_at", "2016-05-12 00:17:49.937781"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 36]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mTestModel Load (0.1ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:17:49.942459"], ["updated_at", "2016-05-12 00:17:49.942459"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:17:49.943920"], ["updated_at", "2016-05-12 00:17:49.943920"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:17:49.945441"], ["updated_at", "2016-05-12 00:17:49.945441"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:17:49.946639"], ["updated_at", "2016-05-12 00:17:49.946639"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:17:49.947839"], ["updated_at", "2016-05-12 00:17:49.947839"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (37, 38, 39, 40, 41) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.3ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (17, 33, 68, 100, 171) LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 1], ["created_at", "2016-05-12 00:17:50.955439"], ["updated_at", "2016-05-12 00:17:50.955439"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 2], ["created_at", "2016-05-12 00:17:50.956858"], ["updated_at", "2016-05-12 00:17:50.956858"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 3], ["created_at", "2016-05-12 00:17:50.958111"], ["updated_at", "2016-05-12 00:17:50.958111"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (1, 33, 2, 3, 171) LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:21:23.405073"], ["updated_at", "2016-05-12 00:21:23.405073"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 42]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:21:23.417103"], ["updated_at", "2016-05-12 00:21:23.417103"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 43]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mTestModel Load (0.1ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:21:23.421439"], ["updated_at", "2016-05-12 00:21:23.421439"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:21:23.422982"], ["updated_at", "2016-05-12 00:21:23.422982"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:21:23.424335"], ["updated_at", "2016-05-12 00:21:23.424335"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:21:23.425658"], ["updated_at", "2016-05-12 00:21:23.425658"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:21:23.427132"], ["updated_at", "2016-05-12 00:21:23.427132"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.3ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (44, 45, 46, 47, 48) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.3ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (17, 33, 68, 100, 171) LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 1], ["created_at", "2016-05-12 00:21:24.535868"], ["updated_at", "2016-05-12 00:21:24.535868"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 2], ["created_at", "2016-05-12 00:21:24.537452"], ["updated_at", "2016-05-12 00:21:24.537452"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 3], ["created_at", "2016-05-12 00:21:24.538762"], ["updated_at", "2016-05-12 00:21:24.538762"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (1, 33, 2, 3, 171) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:35:02.548665"], ["updated_at", "2016-05-12 00:35:02.548665"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 49]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:35:02.562350"], ["updated_at", "2016-05-12 00:35:02.562350"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 50]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mTestModel Load (0.1ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:35:02.566780"], ["updated_at", "2016-05-12 00:35:02.566780"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:35:02.568612"], ["updated_at", "2016-05-12 00:35:02.568612"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:35:02.569994"], ["updated_at", "2016-05-12 00:35:02.569994"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:35:02.571183"], ["updated_at", "2016-05-12 00:35:02.571183"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:35:02.572736"], ["updated_at", "2016-05-12 00:35:02.572736"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.3ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (51, 52, 53, 54, 55) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.3ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (17, 33, 68, 100, 171) LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 1], ["created_at", "2016-05-12 00:35:03.665467"], ["updated_at", "2016-05-12 00:35:03.665467"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 2], ["created_at", "2016-05-12 00:35:03.667182"], ["updated_at", "2016-05-12 00:35:03.667182"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 3], ["created_at", "2016-05-12 00:35:03.668333"], ["updated_at", "2016-05-12 00:35:03.668333"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (1, 33, 2, 3, 171) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:44:35.295192"], ["updated_at", "2016-05-12 00:44:35.295192"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.3ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 56]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:44:35.307116"], ["updated_at", "2016-05-12 00:44:35.307116"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 57]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:44:35.311540"], ["updated_at", "2016-05-12 00:44:35.311540"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:44:35.312815"], ["updated_at", "2016-05-12 00:44:35.312815"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:44:35.313910"], ["updated_at", "2016-05-12 00:44:35.313910"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:44:35.315051"], ["updated_at", "2016-05-12 00:44:35.315051"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:44:35.316328"], ["updated_at", "2016-05-12 00:44:35.316328"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.3ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (58, 59, 60, 61, 62) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.3ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (17, 33, 68, 100, 171) LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 1], ["created_at", "2016-05-12 00:44:36.450239"], ["updated_at", "2016-05-12 00:44:36.450239"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 2], ["created_at", "2016-05-12 00:44:36.452082"], ["updated_at", "2016-05-12 00:44:36.452082"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 3], ["created_at", "2016-05-12 00:44:36.453137"], ["updated_at", "2016-05-12 00:44:36.453137"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (1, 33, 2, 3, 171) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.3ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:47:46.844097"], ["updated_at", "2016-05-12 00:47:46.844097"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 63]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:47:46.856061"], ["updated_at", "2016-05-12 00:47:46.856061"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 64]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mTestModel Load (0.1ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:47:46.859825"], ["updated_at", "2016-05-12 00:47:46.859825"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:47:46.861319"], ["updated_at", "2016-05-12 00:47:46.861319"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:47:46.862634"], ["updated_at", "2016-05-12 00:47:46.862634"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:47:46.864171"], ["updated_at", "2016-05-12 00:47:46.864171"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:47:46.865430"], ["updated_at", "2016-05-12 00:47:46.865430"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.3ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (65, 66, 67, 68, 69) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.3ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (17, 33, 68, 100, 171) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 1], ["created_at", "2016-05-12 00:47:47.942944"], ["updated_at", "2016-05-12 00:47:47.942944"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 2], ["created_at", "2016-05-12 00:47:47.944834"], ["updated_at", "2016-05-12 00:47:47.944834"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 3], ["created_at", "2016-05-12 00:47:47.945922"], ["updated_at", "2016-05-12 00:47:47.945922"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (1, 33, 2, 3, 171) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:47:56.414266"], ["updated_at", "2016-05-12 00:47:56.414266"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:47:56.418662"], ["updated_at", "2016-05-12 00:47:56.418662"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:47:56.420080"], ["updated_at", "2016-05-12 00:47:56.420080"]]
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:47:56.421338"], ["updated_at", "2016-05-12 00:47:56.421338"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:47:56.422580"], ["updated_at", "2016-05-12 00:47:56.422580"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.4ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (70, 71, 72, 73, 74) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:48:01.536226"], ["updated_at", "2016-05-12 00:48:01.536226"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 75]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:48:01.548527"], ["updated_at", "2016-05-12 00:48:01.548527"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 76]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mTestModel Load (0.1ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:48:01.552012"], ["updated_at", "2016-05-12 00:48:01.552012"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:48:01.553213"], ["updated_at", "2016-05-12 00:48:01.553213"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:48:01.554382"], ["updated_at", "2016-05-12 00:48:01.554382"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:48:01.555847"], ["updated_at", "2016-05-12 00:48:01.555847"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:48:01.557077"], ["updated_at", "2016-05-12 00:48:01.557077"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.3ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (77, 78, 79, 80, 81) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.4ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (17, 33, 68, 100, 171) LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 1], ["created_at", "2016-05-12 00:48:04.166435"], ["updated_at", "2016-05-12 00:48:04.166435"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 2], ["created_at", "2016-05-12 00:48:04.168027"], ["updated_at", "2016-05-12 00:48:04.168027"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 3], ["created_at", "2016-05-12 00:48:04.169105"], ["updated_at", "2016-05-12 00:48:04.169105"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (1, 33, 2, 3, 171) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:48:45.149963"], ["updated_at", "2016-05-12 00:48:45.149963"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:48:45.155145"], ["updated_at", "2016-05-12 00:48:45.155145"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:48:45.156724"], ["updated_at", "2016-05-12 00:48:45.156724"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:48:45.157906"], ["updated_at", "2016-05-12 00:48:45.157906"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:48:45.159368"], ["updated_at", "2016-05-12 00:48:45.159368"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mSELECT "test_models"."id" FROM "test_models"[0m
+  [1m[35mTestModel Load (0.4ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (82, 83, 84, 85, 86) LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:55:41.119343"], ["updated_at", "2016-05-12 00:55:41.119343"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 87]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:55:41.130435"], ["updated_at", "2016-05-12 00:55:41.130435"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 88]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mTestModel Load (0.1ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:55:41.134175"], ["updated_at", "2016-05-12 00:55:41.134175"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:55:41.135279"], ["updated_at", "2016-05-12 00:55:41.135279"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:55:41.136527"], ["updated_at", "2016-05-12 00:55:41.136527"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:55:41.137590"], ["updated_at", "2016-05-12 00:55:41.137590"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:55:41.138705"], ["updated_at", "2016-05-12 00:55:41.138705"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 1], ["created_at", "2016-05-12 00:55:42.375066"], ["updated_at", "2016-05-12 00:55:42.375066"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 2], ["created_at", "2016-05-12 00:55:42.376626"], ["updated_at", "2016-05-12 00:55:42.376626"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 3], ["created_at", "2016-05-12 00:55:42.377721"], ["updated_at", "2016-05-12 00:55:42.377721"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:56:31.332822"], ["updated_at", "2016-05-12 00:56:31.332822"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 94]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:56:31.343429"], ["updated_at", "2016-05-12 00:56:31.343429"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 95]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mTestModel Load (0.1ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:56:31.346945"], ["updated_at", "2016-05-12 00:56:31.346945"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:56:31.348200"], ["updated_at", "2016-05-12 00:56:31.348200"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:56:31.349642"], ["updated_at", "2016-05-12 00:56:31.349642"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:56:31.350998"], ["updated_at", "2016-05-12 00:56:31.350998"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:56:31.352575"], ["updated_at", "2016-05-12 00:56:31.352575"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.3ms)[0m  [1mSELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (96, 97, 98, 99, 100)[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.3ms)[0m  SELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (17, 33, 68, 100, 171)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 1], ["created_at", "2016-05-12 00:56:32.974147"], ["updated_at", "2016-05-12 00:56:32.974147"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 2], ["created_at", "2016-05-12 00:56:32.976015"], ["updated_at", "2016-05-12 00:56:32.976015"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 3], ["created_at", "2016-05-12 00:56:32.977071"], ["updated_at", "2016-05-12 00:56:32.977071"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (1, 33, 2, 3, 171)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:57:27.615253"], ["updated_at", "2016-05-12 00:57:27.615253"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 101]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:57:27.625809"], ["updated_at", "2016-05-12 00:57:27.625809"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 102]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mTestModel Load (0.1ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:57:27.629135"], ["updated_at", "2016-05-12 00:57:27.629135"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:57:27.630324"], ["updated_at", "2016-05-12 00:57:27.630324"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:57:27.631229"], ["updated_at", "2016-05-12 00:57:27.631229"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:57:27.632702"], ["updated_at", "2016-05-12 00:57:27.632702"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:57:27.633852"], ["updated_at", "2016-05-12 00:57:27.633852"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.3ms)[0m  [1mSELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (103, 104, 105, 106, 107)[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.3ms)[0m  SELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (17, 33, 68, 100, 171)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 1], ["created_at", "2016-05-12 00:57:28.708485"], ["updated_at", "2016-05-12 00:57:28.708485"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 2], ["created_at", "2016-05-12 00:57:28.710460"], ["updated_at", "2016-05-12 00:57:28.710460"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 3], ["created_at", "2016-05-12 00:57:28.711652"], ["updated_at", "2016-05-12 00:57:28.711652"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (1, 33, 2, 3, 171)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:58:33.609199"], ["updated_at", "2016-05-12 00:58:33.609199"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 108]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:58:33.621181"], ["updated_at", "2016-05-12 00:58:33.621181"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 109]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mTestModel Load (0.1ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:58:33.624916"], ["updated_at", "2016-05-12 00:58:33.624916"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:58:33.626391"], ["updated_at", "2016-05-12 00:58:33.626391"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:58:33.627839"], ["updated_at", "2016-05-12 00:58:33.627839"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:58:33.629016"], ["updated_at", "2016-05-12 00:58:33.629016"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:58:33.630818"], ["updated_at", "2016-05-12 00:58:33.630818"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.3ms)[0m  [1mSELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (110, 111, 112, 113, 114)[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.3ms)[0m  SELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (17, 33, 68, 100, 171)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 1], ["created_at", "2016-05-12 00:58:34.809563"], ["updated_at", "2016-05-12 00:58:34.809563"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 2], ["created_at", "2016-05-12 00:58:34.811146"], ["updated_at", "2016-05-12 00:58:34.811146"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 3], ["created_at", "2016-05-12 00:58:34.812511"], ["updated_at", "2016-05-12 00:58:34.812511"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (1, 33, 2, 3, 171)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:59:07.843247"], ["updated_at", "2016-05-12 00:59:07.843247"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 115]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:59:07.854627"], ["updated_at", "2016-05-12 00:59:07.854627"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 116]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mTestModel Load (0.1ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:59:07.858390"], ["updated_at", "2016-05-12 00:59:07.858390"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:59:07.859711"], ["updated_at", "2016-05-12 00:59:07.859711"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:59:07.860774"], ["updated_at", "2016-05-12 00:59:07.860774"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:59:07.862253"], ["updated_at", "2016-05-12 00:59:07.862253"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:59:07.863388"], ["updated_at", "2016-05-12 00:59:07.863388"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.3ms)[0m  [1mSELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (117, 118, 119, 120, 121)[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.3ms)[0m  SELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (17, 33, 68, 100, 171)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 1], ["created_at", "2016-05-12 00:59:08.912258"], ["updated_at", "2016-05-12 00:59:08.912258"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 2], ["created_at", "2016-05-12 00:59:08.913828"], ["updated_at", "2016-05-12 00:59:08.913828"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 3], ["created_at", "2016-05-12 00:59:08.914942"], ["updated_at", "2016-05-12 00:59:08.914942"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (1, 33, 2, 3, 171)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:59:50.595256"], ["updated_at", "2016-05-12 00:59:50.595256"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 122]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:59:50.607938"], ["updated_at", "2016-05-12 00:59:50.607938"]]
+  [1m[36m (0.5ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 123]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:59:50.612538"], ["updated_at", "2016-05-12 00:59:50.612538"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:59:50.614154"], ["updated_at", "2016-05-12 00:59:50.614154"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:59:50.615515"], ["updated_at", "2016-05-12 00:59:50.615515"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 00:59:50.616974"], ["updated_at", "2016-05-12 00:59:50.616974"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 00:59:50.618462"], ["updated_at", "2016-05-12 00:59:50.618462"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.7ms)[0m  [1mSELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (124, 125, 126, 127, 128)[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.3ms)[0m  SELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (17, 33, 68, 100, 171)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 1], ["created_at", "2016-05-12 00:59:51.303856"], ["updated_at", "2016-05-12 00:59:51.303856"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 2], ["created_at", "2016-05-12 00:59:51.305567"], ["updated_at", "2016-05-12 00:59:51.305567"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 3], ["created_at", "2016-05-12 00:59:51.306748"], ["updated_at", "2016-05-12 00:59:51.306748"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (1, 33, 2, 3, 171)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 01:00:56.956313"], ["updated_at", "2016-05-12 01:00:56.956313"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 129]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 01:00:56.967382"], ["updated_at", "2016-05-12 01:00:56.967382"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 130]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mTestModel Load (0.1ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 01:00:56.971338"], ["updated_at", "2016-05-12 01:00:56.971338"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 01:00:56.972696"], ["updated_at", "2016-05-12 01:00:56.972696"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 01:00:56.974243"], ["updated_at", "2016-05-12 01:00:56.974243"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 01:00:56.975354"], ["updated_at", "2016-05-12 01:00:56.975354"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 01:00:56.976456"], ["updated_at", "2016-05-12 01:00:56.976456"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.3ms)[0m  [1mSELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (131, 132, 133, 134, 135)[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (17, 33, 68, 100, 171)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 1], ["created_at", "2016-05-12 01:00:56.995746"], ["updated_at", "2016-05-12 01:00:56.995746"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 2], ["created_at", "2016-05-12 01:00:56.997070"], ["updated_at", "2016-05-12 01:00:56.997070"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 3], ["created_at", "2016-05-12 01:00:56.998294"], ["updated_at", "2016-05-12 01:00:56.998294"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (1, 33, 2, 3, 171)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.4ms)[0m  SELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (17, 33, 68, 100, 171)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 1], ["created_at", "2016-05-12 01:04:40.558837"], ["updated_at", "2016-05-12 01:04:40.558837"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 2], ["created_at", "2016-05-12 01:04:40.562842"], ["updated_at", "2016-05-12 01:04:40.562842"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 3], ["created_at", "2016-05-12 01:04:40.563846"], ["updated_at", "2016-05-12 01:04:40.563846"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.3ms)[0m  [1mSELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (1, 33, 2, 3, 171)[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "test_models"
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 1], ["created_at", "2016-05-12 01:05:54.393003"], ["updated_at", "2016-05-12 01:05:54.393003"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 2], ["created_at", "2016-05-12 01:05:54.397205"], ["updated_at", "2016-05-12 01:05:54.397205"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 3], ["created_at", "2016-05-12 01:05:54.398294"], ["updated_at", "2016-05-12 01:05:54.398294"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.5ms)[0m  [1mSELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (1, 33, 2, 3, 171)[0m
+  [1m[35mTestModel Load (0.3ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (1, 33, 2, 3, 171) AND "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 1], ["created_at", "2016-05-12 01:06:50.006074"], ["updated_at", "2016-05-12 01:06:50.006074"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 2], ["created_at", "2016-05-12 01:06:50.010104"], ["updated_at", "2016-05-12 01:06:50.010104"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 3], ["created_at", "2016-05-12 01:06:50.011372"], ["updated_at", "2016-05-12 01:06:50.011372"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.3ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (1, 33, 2, 3, 171) AND "test_models"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" IN (1, 33, 2, 3, 171) AND "test_models"."id" = $1 LIMIT 1  [["id", 33]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 1], ["created_at", "2016-05-12 01:07:14.068064"], ["updated_at", "2016-05-12 01:07:14.068064"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 2], ["created_at", "2016-05-12 01:07:14.071504"], ["updated_at", "2016-05-12 01:07:14.071504"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 3], ["created_at", "2016-05-12 01:07:14.072893"], ["updated_at", "2016-05-12 01:07:14.072893"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.5ms)[0m  [1mSELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (1, 33, 2, 3, 171)[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 1], ["created_at", "2016-05-12 01:07:35.386953"], ["updated_at", "2016-05-12 01:07:35.386953"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 2], ["created_at", "2016-05-12 01:07:35.390596"], ["updated_at", "2016-05-12 01:07:35.390596"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 3], ["created_at", "2016-05-12 01:07:35.392122"], ["updated_at", "2016-05-12 01:07:35.392122"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.5ms)[0m  [1mSELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (1, 33, 2, 3, 171)[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 01:07:39.250965"], ["updated_at", "2016-05-12 01:07:39.250965"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.2ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 136]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.1ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 01:07:39.261898"], ["updated_at", "2016-05-12 01:07:39.261898"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1  [["id", 137]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mTestModel Load (0.1ms)[0m  [1mSELECT  "test_models".* FROM "test_models" WHERE "test_models"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 01:07:39.266540"], ["updated_at", "2016-05-12 01:07:39.266540"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 01:07:39.268076"], ["updated_at", "2016-05-12 01:07:39.268076"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 01:07:39.269287"], ["updated_at", "2016-05-12 01:07:39.269287"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["name", "John"], ["created_at", "2016-05-12 01:07:39.270648"], ["updated_at", "2016-05-12 01:07:39.270648"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "John"], ["created_at", "2016-05-12 01:07:39.271909"], ["updated_at", "2016-05-12 01:07:39.271909"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mTestModel Load (0.3ms)[0m  [1mSELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (138, 139, 140, 141, 142)[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (17, 33, 68, 100, 171)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 1], ["created_at", "2016-05-12 01:07:39.278645"], ["updated_at", "2016-05-12 01:07:39.278645"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "John"], ["id", 2], ["created_at", "2016-05-12 01:07:39.280386"], ["updated_at", "2016-05-12 01:07:39.280386"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "test_models" ("name", "id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["name", "John"], ["id", 3], ["created_at", "2016-05-12 01:07:39.281439"], ["updated_at", "2016-05-12 01:07:39.281439"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mTestModel Load (0.2ms)[0m  SELECT "test_models".* FROM "test_models" WHERE "test_models"."id" IN (1, 33, 2, 3, 171)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
