@@ -9,13 +9,20 @@ Gem::Specification.new do |s|
   s.version     = NullObjectModels::VERSION
   s.authors     = ["Andrew Szczepanski"]
   s.email       = ["andrew.szczepanski@thescore.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of NullObjectModels."
-  s.description = "TODO: Description of NullObjectModels."
+  s.homepage    = "https://www.github.com/skipants/null_object_models"
+  s.summary     = "ActiveRecord Extension for handling dangling records"
+  s.description = <<~DESCRIPTION
+    Null Object Models is a gem that provides finder method(s) extensions to ActiveRecord::Base
+    objects. These finder methods will return either default or defined null objects if an object
+    is not found with the given ID(s). This is very useful for preventing nil errors.
+
+    I recommend using this gem if you have dangling records and have yet to implement some sort
+    of soft destroy implementation.
+  DESCRIPTION
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
-  s.test_files = Dir["test/**/*"]
+  s.test_files = Dir["spec/**/*"]
 
   s.add_dependency "rails", "~> 4.2.5.1"
 

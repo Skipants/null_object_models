@@ -2,11 +2,13 @@ module NullObjectModels
   class Default
     attr_accessor :id
 
-    # delegate :method_missing, :respond_to_missing?, to: :@klass
-
-    def initialize(id, klass)
+    def initialize(id, represented_class)
       @id = id
-      @klass = klass
+      @represented_class = represented_class
+    end
+
+    def class
+      @represented_class
     end
   end
 end
