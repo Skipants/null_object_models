@@ -5,9 +5,15 @@ objects.
 
 ## Getting Started
 
-### Defining Null Object Models
+### Finder methods
 
-You can call `find_or_null(id)` or `find_or_null([ids])` on any model and this will work, returning `NullModelObject::Default` instances for anything not found. However, this is probably not too useful without creating a null object for your model. Since you'll most likely get nil errors if you try referencing any data on this objects.
+1. `find_or_null(id_or_array_of_ids, NullModelClass)`
+
+This returns either the found model(s) or null object(s) for that model if it's not found, given the ID(s). You can optionally pass the class that is used in place of any not found models.
+
+If you don't pass a `NullModelClass`, the default `NullModelObjects::Default` class is used. You can implicitly set a class to be used as well, as we'll show below.
+
+### Defining Null Object Models
 
 Defining a null object for your model can be done in one of two ways:
 
@@ -20,7 +26,7 @@ class NullStudent < NullObjectModels::Default
 end
 ```
 
-2. Define `self.null_model` and return the name of the class that is a null_model. This class must also inherit from NullModelObjects::Default.
+2. Define `self.null_model` and return the name of the class that is a null_model. This class must also inherit from NullModelObjects::Default. This way is useful if you do not want/can not have a class named `Null${ModelName}`
 
 eg.
 
@@ -41,18 +47,26 @@ end
 
 The main value comes from defining defaults for your null models that allows you to handle logic in your application without throwing nil errors.
 
-For example, if you have a `Train` model with a `sound` attribute, defining:
+For example, say you have a `Train` model with a `sound` attribute in the database. With a null model implementation like:
 
 ```ruby
-class NullTrain
+class NullTrain < NullModelObjects::Default
   def sound
-    'Choo choo!'
+    "Choo choo!"
   end
 end
 ```
 
-provides a default sound for null models. Now if your code has something like:
+you now prevent `NilError`s on any code attempting to call `#sound` on null objects.
 
-`puts "The sound a train makes: #{train.sound}"` you won't get a nil error.
+Eg. Trains with IDs (1,2) exist with the sound `"Chugga Chugga"`. Train with ID 3 does not exist.
 
+```ruby
+Train.find_or_null([1,2,3]).each |train|
+  puts train.sound
+end
 
+# => "Chugga Chugga"
+# => "Chugga Chugga"
+# => "Choo choo!
+```
