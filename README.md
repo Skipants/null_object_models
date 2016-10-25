@@ -1,11 +1,11 @@
-= NullObjectModels
+# NullObjectModels
 
 Null Object Models is a gem that provides a finder method extension to ActiveRecord::Base
 objects.
 
-== Getting Started
+## Getting Started
 
-=== Defining Null Object Models
+### Defining Null Object Models
 
 You can call `find_or_null(id)` or `find_or_null([ids])` on any model and this will work, returning `NullModelObject::Default` instances for anything not found. However, this is probably not too useful without creating a null object for your model. Since you'll most likely get nil errors if you try referencing any data on this objects.
 
@@ -37,7 +37,7 @@ class MissingStudent < NullObjectModels::Default
 end
 ```
 
-=== Define Default Implementation
+### Define Default Implementation
 
 The main value comes from defining defaults for your null models that allows you to handle logic in your application without throwing nil errors.
 
