@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Andrew Szczepanski"]
   s.email       = ["andrew.szczepanski@thescore.com"]
   s.homepage    = "https://www.github.com/skipants/null_object_models"
-  s.summary     = "ActiveRecord Extension for handling dangling records"
+  s.summary     = "ActiveRecord extension for handling dangling records with the null object pattern"
   s.description = <<~DESCRIPTION
     Null Object Models is a gem that provides finder method(s) extensions to ActiveRecord::Base
     objects. These finder methods will return either default or defined null objects if an object
