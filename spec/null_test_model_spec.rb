@@ -7,7 +7,6 @@ RSpec.describe NullTestModel do
   end
 
   it "has a NullClassDelegator as a class" do
-    debugger
     expect(described_class.new(1, TestModel).class).to be_a(NullObjectModels::NullClassDelegator)
   end
 end
