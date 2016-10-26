@@ -1,14 +1,14 @@
 module NullObjectModels
   class Default
-    attr_accessor :id
+    attr_accessor :id, :_nom_klass
 
-    def initialize(id, represented_class)
+    def initialize(id, klass)
       @id = id
-      @represented_class = represented_class
+      @_nom_klass = klass
     end
 
     def class
-      @represented_class
+      @_nom_delegated_class ||= NullObjectModels::NullClassDelegator.new(self)
     end
   end
 end
